@@ -8,6 +8,15 @@ h1{
     font-size:50px;
     font-weight:500px;
 }
+h2{
+    font-size:40px;
+    font-weight:500px;
+}
+p{
+    margin-right:20%;
+    font-weight: 200px;
+    line-height: 38px;
+}
 
 /*-----Hero Sec Css-----*/
 .hero-sec{
@@ -24,11 +33,7 @@ h1{
     margin: auto;
 
 }
-.hero-sec p{
-    margin-right:20%;
-    font-weight: 200px;
-    line-height: 30px;
-}
+
 .hero-img{
     width:100%;
     
@@ -45,3 +50,38 @@ h1{
 
 /*-----About Sec Css-----*/
    
+.about-sec{
+    display: flex;
+   height: 100%;
+   
+   background-image: url(images/shapes/7.png);
+   background-position: right top;
+  
+   
+    
+}
+.about-sec-div{
+    width: 50%;
+    margin-top: 150px;
+   
+   
+
+}
+.about-sec-div-cont{
+    width:95%;
+    margin:110px 50px;
+}
+.about-sec img{
+    width: 60%;
+    height: 100%;
+    margin-left: 30px;
+}
+.about-btn{
+    background-color: red;
+    background-image: linear-gradient(to top right, #FBA24F, #FF1E1E);
+    border: none;
+    padding: 15px 45px;
+    border-radius: 50px;
+    color: white;
+    margin:30px 0px;
+}

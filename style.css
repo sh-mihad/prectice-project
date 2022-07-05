@@ -1,0 +1,32 @@
+/*------Main Css------ */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-size:50px;
+    font-weight:500px;
+}
+
+/*-----Hero Sec Css-----*/
+.hero-sec{
+    display:flex;
+   
+    
+    
+}
+.hero-sec-div{
+    width: 50%;
+    padding:0px 50px;
+    margin: 20px;
+    margin: auto;
+
+}
+.hero-sec p{
+    margin-right:20%;
+    font-weight: 200px;
+}
+.hero-img{
+    width:100%;
+    
+}

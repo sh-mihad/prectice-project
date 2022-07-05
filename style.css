@@ -2,6 +2,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    color: #575757;
 }
 h1{
     font-size:50px;
@@ -11,13 +12,14 @@ h1{
 /*-----Hero Sec Css-----*/
 .hero-sec{
     display:flex;
+    margin-bottom:180px;
    
     
     
 }
 .hero-sec-div{
     width: 50%;
-    padding:0px 50px;
+    padding:0px 40px;
     margin: 20px;
     margin: auto;
 
@@ -25,8 +27,21 @@ h1{
 .hero-sec p{
     margin-right:20%;
     font-weight: 200px;
+    line-height: 30px;
 }
 .hero-img{
     width:100%;
     
 }
+.ord-button{
+   background-color: red;
+    background-image: linear-gradient(to top right, #FBA24F, #FF1E1E);
+    border: none;
+    padding: 15px 25px;
+    border-radius: 50px;
+    color: white;
+    margin:30px 0px;
+}
+
+/*-----About Sec Css-----*/
+   
